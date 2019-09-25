@@ -1,13 +1,11 @@
-file:///workspace/COM404/1-basics/1-output/4-ascii-art/bot.py
+eyes = input("What do you want the eyes to look like? ")
 
-# Please enter a character for the eye 
-o
-# Beep's expression is now as follows:
+print("##########")
+print("# "+ eyes + "  "+ eyes + " #")
+print("# _____ #")
+print("##########")
 
-##########
-#  o  o  #
-#  ----  #
-##########
+
 
 
 
