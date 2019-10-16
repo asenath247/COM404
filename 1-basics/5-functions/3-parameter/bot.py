@@ -18,3 +18,4 @@ escape_by("going deeper")
  
 
 
+#if you wanna use more than one else then do elif
