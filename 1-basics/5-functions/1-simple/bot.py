@@ -1,7 +1,7 @@
 # The function
 def listen():
     print("That was loud")
-    name = input()
+    sound = input()
     print("!")
 
 listen()
