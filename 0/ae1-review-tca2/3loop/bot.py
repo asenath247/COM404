@@ -3,6 +3,6 @@ zones = int(input())
 print("Crossing zones...")
 
 while zones > 0:
-    print("How many zones must I cross? "  + str(zones) + "Crossed all zones.  Jumanji!")
+    print("How many zones must I cross? , " + str(zones) + "Crossed all zones.  Jumanji!")
     zones -=1
 
