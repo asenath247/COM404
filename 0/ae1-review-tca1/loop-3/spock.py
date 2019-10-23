@@ -3,8 +3,8 @@ miles = int(input())
 print("I will count the miles...")
 
 while miles > 0:
-    print("I have " + str(miles) + miles to go before I reach the base.")
-miles -=1
+    print("I have " + str(miles) + " miles to go before I reach the base.")
+    miles -=1
 
 
 
