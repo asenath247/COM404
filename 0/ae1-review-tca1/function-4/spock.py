@@ -13,5 +13,5 @@ item_from_suitcase("toothbrush")
 item_from_suitcase("belt")
 item_from_suitcase("spidey suit")
 
-
+run()
 
