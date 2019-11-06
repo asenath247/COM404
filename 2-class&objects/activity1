@@ -1,0 +1,14 @@
+class Person:
+    def__init__(self):
+    self.name = "Asenath"
+    self.age = "18"
+    self.weight = "Don't know"
+
+    class Person:
+        def__init__(self, name, age=0, weight=0):
+        self.name = name
+        self.age = age
+        self.weight = weight
+
+    def display(self):
+    print("{Asenath} is {18} years old and weighs {Don't know}kg".format(self.name, self.age, self.weight))
