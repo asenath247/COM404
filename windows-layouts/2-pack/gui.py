@@ -38,8 +38,6 @@ class Gui(Tk):
         # ...assigning any event handlers to the component
     
     
-
-    
     def add_email_frame(self):
         self.email_frame = Frame()
         self.email_frame.pack()
