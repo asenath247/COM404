@@ -41,6 +41,18 @@ class Gui(Tk):
         self.map_label = Label(self.map_frame)
         self.map_label.place(x=0, y=0)
         self.map_label.configure(image=self.map_image)
+
+    from Tkinter import *
+    
+    root = Tk()
+    
+    def callback(event):
+    print "clicked at", event.x, event.y
+    frame = Frame(root, width=100, height=100)
+    frame.bind("<Button-1>", callback)
+    frame.pack()
+
+root.mainloop()
         
 if (__name__ == "__main__"):
     gui = Gui()
